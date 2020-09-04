@@ -12,7 +12,7 @@ on:
   repository_dispatch:
     types: helloworld
   release:
-    types: published
+    types: [published]
   push:
     branches:
       - master
